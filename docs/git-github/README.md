@@ -1,7 +1,7 @@
 # Git and GitHub
 
 ## Handout
-You can find the Handout for this here: [Handout - Git & GitHub.pdf](./Handout - Git & GitHub.pdf)
+You can find the Handout for this here: [Handout - Git & GitHub.pdf](./Handout%20-%20Git%20&%20GitHub.pdf)
 
 ## Common workflow cheat sheets
 
