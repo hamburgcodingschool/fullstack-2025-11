@@ -7,11 +7,7 @@
 
 ### 📄 Docs
 
-- [Lesson Summary](https://...)
-
-- [Handout](https://...)
-
-- [Outline](https://...)
+- [Git & GitHub](/docs/git-github/)
 
 
 ### 🤔 Questions?
