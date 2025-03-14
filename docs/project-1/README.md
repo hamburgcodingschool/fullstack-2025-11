@@ -8,7 +8,7 @@ The goal for this project is to build a Travel Blog with HTML, CSS, and JS.
 #### A list of travel locations (exemplified on the left)
 - Build a list of locations you traveled to
 	- The list can display information from an array of objects
-	- The array can be read from localStorage
+	- The array can be read from a local [json-server](https://www.npmjs.com/package/json-server) API or localStorage
 - The following information should be shown in the list:
 	- The name of the city and country
 	- The date of the visit (when you arrived)
@@ -25,7 +25,7 @@ The goal for this project is to build a Travel Blog with HTML, CSS, and JS.
 * Show it as part of the information of your travel location
 
 ### Add new location page
-- A form to add new locations to an array in localStorage
+- A form to add new locations to the API or an array in localStorage
 - After adding the city, it should appear in the homepage with the other travel locations
 - You can experiment with the various input elements, e.g. `<input type="date" />` or `<textarea>`
 - You can add a images: Uploading images is out of context for this project, but you can add the URL to an online image and save it to localStorage same as any other field
@@ -45,7 +45,7 @@ The goal for this project is to build a Travel Blog with HTML, CSS, and JS.
 * Add the forecast for the next few days in the detail section of a city
 
 ### Map
-- So far, we have not played around with embedding a Google Map. If you want to, feel free to play around with the [Map Tiler API]https://www.maptiler.com/) and how to integrate it in your app. You could then show the travel location on a map for every travel location.
+- So far, we have not played around with embedding a Map. If you want to, feel free to play around with the [Map Tiler API](https://www.maptiler.com/) and how to integrate it in your app. You could then show the travel location on a map for every travel location.
 * Feel free to user other Map APIs instead of Map Tiler, e.g. MapBox or the Google Maps API
 * You can also show a special Map with all travel locations
 
