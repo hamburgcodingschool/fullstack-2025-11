@@ -81,3 +81,19 @@ git add <file>
 git commit
 git push
 ```
+
+Setting up new repositories:
+
+```sh
+git init
+# make the first changes/files
+git add <file>
+git commit
+```
+
+To push it to a new empty github repo follow the steps shown on said repo on github.
+
+Cloning a remote repo
+```sh
+git clone <ssh url from github etc.>
+```
