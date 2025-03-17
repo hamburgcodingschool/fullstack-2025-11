@@ -21,7 +21,7 @@ The goal for this project is to build a Travel Blog with HTML, CSS, and JS.
 	* A description of the travel (can be Blind Text)
 	* The current weather in the city 
 #### How to show the current weather of the travel location
-* You can fetch the current weather (including an icon) of the travel location using the [OpenWeatherMap API](https://openweathermap.org/api)
+* You can fetch the current weather (including an icon) of the travel location using [MeteoSource](https://www.meteosource.com/)
 * Show it as part of the information of your travel location
 
 ### Add new location page
