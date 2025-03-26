@@ -1,0 +1,41 @@
+<html>
+<head>
+  <title>innerHTML injections</title>
+</head>
+<body>
+  <div id="content">This is the content - try using the input and buttons to change it!</div>
+  <input type="text" id="input" />
+  <button type="button" onclick="setInnerHtml()">innerHTML</button>
+  <button type="button" onclick="setTextContent()">textContent</button>
+  <button type="button" onclick="setClassInnerHtml()">class</button>
+  <button type="button" onclick="setClassSafely()">class safe</button>
+
+  <script>
+    const content = document.getElementById('content')
+    const input = document.getElementById('input')
+
+    function setInnerHtml() {
+      content.innerHTML = `<p>${input.value}</p>`
+    }
+
+    function setTextContent() {
+      const p = document.createElement('p')
+      p.textContent = input.value
+      content.innerHTML = ''
+      content.append(p)
+    }
+
+    function setClassInnerHtml() {
+      content.innerHTML = `<p class="${input.value}">Class is set!</p>`
+    }
+
+    function setClassSafely() {
+      const p = document.createElement('p')
+      p.className = input.value
+      p.textContent = 'Class set!'
+      content.innerHTML = ''
+      content.append(p)
+    }
+  </script>
+</body>
+</html>
