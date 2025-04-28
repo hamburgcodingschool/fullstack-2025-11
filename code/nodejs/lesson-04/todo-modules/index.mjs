@@ -34,43 +34,27 @@ app.get(apiPath + '/todos/:id', (req, res) => {
 })
 
 app.post(apiPath + '/todos', (req, res) => {
-  const newTodo = {
-    id: `${todos.length}`,
-    ...req.body
-  }
-  todos.push(newTodo)
+  const id = todosService.create(req.body)
 
-  res.statusCode(201).send({ id: newTodo.id })
+  res.status(201).send({ id })
 })
 
 app.put(apiPath + '/todos/:id', (req, res) => {
   const { id } = req.params
-
-  const index = todos.findIndex((todo) => todo.id === id)
-
-  if (index === -1) {
+  const updatedTodo = todosService.update(req.body, id)
+  if (updatedTodo === undefined) {
     res.send(404)
     return
   }
-
-  todos[index] = {
-    ...req.body,
-    id,
-  }
-
   res.send({ id })
 })
 
 app.delete(apiPath + '/todos/:id', (req, res) => {
   const { id } = req.params
-  const index = todos.findIndex((todo) => todo.id === id)
-
-  if (index === -1) {
+  const deletedTodo = todosService.remove(id)
+  if (deletedTodo === undefined) {
     res.send(404)
   }
-
-  todos.splice(index, 1)
-
   res.send(200)
 })
 

@@ -7,6 +7,7 @@ const todos = [
   { id: '5', label: 'Extend Todo app to delete todos', done: false },
   { id: '6', label: 'Separation of Concerns', done: false },
 ]
+let idCounter = 6
 
 export const todosService = {
   findAll: () => {
@@ -15,4 +16,32 @@ export const todosService = {
   findById: (id) => {
     return todos.find((todo) => todo.id === id)
   },
+  create: (todo) => {
+    const newTodo = {
+      ...todo,
+      id: `${idCounter += 1}`,
+    }
+    todos.push(newTodo)
+
+    return newTodo.id
+  },
+  update: (todo, id) => {
+    const wc = { ...todo, id }
+    const index = todos.findIndex((item) => item.id === id)
+    if (index === -1) {
+      return undefined
+    }
+
+    todos[index] = wc
+
+    return { ...todos[index] }
+  },
+  remove: (id) => {
+    const index = todos.findIndex((item) => item.id === id)
+    if (index === -1) {
+      return undefined
+    }
+
+    return todos.splice(index, 1)[0]
+  }
 }
