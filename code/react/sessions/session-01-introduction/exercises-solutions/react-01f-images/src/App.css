@@ -1,0 +1,12 @@
+.App {
+  padding: 1.5em;
+}
+
+.App-headline {
+  color: var(--color-primary);
+}
+
+.App-logo {
+  width: 200px;
+  border: 3px solid var(--color-primary);
+}

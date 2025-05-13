@@ -25,10 +25,16 @@ cd ~/hcs-react-course
 
 ### Create a copy of the previous project
 
-Before starting this exercise, make a copy of the previous exercise "react-01g-message-board-setup" and rename it to "react-02h-message-board-post-list". Use the following command to do this:
+Before starting this exercise, turn the previous exercise "react-01g-message-board-setup" into a git repo and push it to github if you haven't done it already - create the empty repository "react-01g-message-board-setup" and then:
 
 ```
-cp -R react-01g-message-board-setup react-02h-message-board-post-list
+cd react-01g-message-board-setup
+git init
+git add .
+git commit -m "React Session 01: Message board setup"
+git remote add origin <SSH uri of the repo from github>
+git branch -M main
+git push -u origin main
 ```
 
 After copying the project, follow these steps:
@@ -149,3 +155,13 @@ The final component tree should look like this:
         - (some internal components from `react-icons`)
 
 If the component tree you see in "React Developer Tools" in your browser diverges, please revisit the previous tasks to fix.
+
+### Task 6: Commit and push your changes to github
+
+When you're done, commit and push your changes to github:
+
+```sh
+git add .
+git commit -m "React Session 02: List of Posts"
+git push
+```

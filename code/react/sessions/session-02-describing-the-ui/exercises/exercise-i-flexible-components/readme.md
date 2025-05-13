@@ -33,6 +33,19 @@ After the setup is complete, proceed with the following steps:
 - Open the React app in your browser:
     - Example: `http://localhost:5173/`
 
+After checking that the setup works, remove the contents of `App.css` and `index.css` (but keep the files) and reduce App.jsx to
+```jsx
+import './App.css';
+
+export function App() {
+  return (
+    <>
+    </>
+  );
+}
+```
+in order to get a clean start.
+
 ## Task 1: Install Chakra UI
 
 In this exercise your will be using an external UI library providing a variety of pre-defined React components, that you can integrate into your own App. 
