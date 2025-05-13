@@ -35,6 +35,19 @@ After the initial setup is complete, proceed with these steps:
 - Open the React app in your browser:
     - Example: `http://localhost:5173/`
 
+After checking that the setup works, remove the contents of `App.css` and `index.css` (but keep the files) and reduce App.jsx to
+```jsx
+import './App.css';
+
+export function App() {
+  return (
+    <>
+    </>
+  );
+}
+```
+in order to get a clean start.
+
 ## Task 1: Create a `UserCard` Component
 
 Your task is to create a reusable component called `UserCard` that displays a user's information. This component should be simple and not use any props for this exercise. All data will be static.
