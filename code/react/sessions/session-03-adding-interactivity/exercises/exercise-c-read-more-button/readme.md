@@ -77,7 +77,7 @@ Add a boolean state named `isVisible` with an initial value of `false`. This sta
 ```jsx
 import { useState } from 'react';
 
-export default function BlogEntry() {
+export function BlogEntry() {
   const [isVisible, setIsVisible] = useState(false);
 
   return (
@@ -134,7 +134,7 @@ Here is the complete `BlogEntry.jsx` component including all the steps:
 ```jsx
 import { useState } from 'react';
 
-export default function BlogEntry() {
+export function BlogEntry() {
   const [isVisible, setIsVisible] = useState(false);
 
   function toggleIsVisible() {
@@ -161,14 +161,14 @@ src/App.jsx
 Import the `BlogEntry` component:
 
 ```jsx
-import BlogEntry from './components/BlogEntry';
+import { BlogEntry } from './components/BlogEntry';
 ```
 
 
 Add the `BlogEntry` component to the JSX of the `App` component:
 
 ```jsx
-export default function App() {
+export function App() {
   return (
     <div className="App">
       <BlogEntry />

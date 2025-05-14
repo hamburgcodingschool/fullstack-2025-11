@@ -104,7 +104,7 @@ Implement this using a boolean state that controls the visibility of the summary
 Don't forget to import the `useState` hook.
 
 ```jsx
-import {useState} from "react";
+import { useState } from "react";
 ```
 
 ### Step 4: Add Toggle Functionality to Button

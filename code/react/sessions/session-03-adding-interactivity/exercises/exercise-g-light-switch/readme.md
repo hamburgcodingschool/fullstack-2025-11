@@ -71,7 +71,7 @@ Set up the initial structure of the `LightSwitch` component with two states:
 ```jsx
 import { useState } from 'react';
 
-export default function LightSwitch() {
+export function LightSwitch() {
     const [isOn, setIsOn] = useState(false);
     const [toggleCount, setToggleCount] = useState(0);
 
@@ -129,13 +129,13 @@ Import the `LightSwitch` component at the top of the file:
 
 
 ```jsx
-import LightSwitch from './components/LightSwitch';
+import { LightSwitch } from './components/LightSwitch';
 ```
 
 Add the `LightSwitch` component to the JSX:
 
 ```jsx
-export default function App() {
+export function App() {
   return (
     <div className="App">
       <LightSwitch />

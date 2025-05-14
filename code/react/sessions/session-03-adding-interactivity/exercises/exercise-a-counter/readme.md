@@ -70,7 +70,7 @@ Begin by defining the structure of the `Counter` component:
 - It shows a button to increment the cound
 
 ```jsx
-export default function Counter() {
+export function Counter() {
   return (
     <div>
       <p>Current Count: 0</p>
@@ -99,7 +99,7 @@ Attach this handler to the button's `onClick` event:
 The component should now look like this:
 
 ```jsx
-export default function Counter() {
+export function Counter() {
   function handleIncrement() {
     console.log('Increment the count');
   }
@@ -127,7 +127,7 @@ Initialize the counter state to `0` and update the `handleIncrement` function to
 ```jsx
 import { useState } from 'react';
 
-export default function Counter() {
+export function Counter() {
   const [count, setCount] = useState(0);
 
   function handleIncrement() {
@@ -155,13 +155,13 @@ Import the `Counter` component at the top of the file:
 
 
 ```jsx
-import Counter from './components/Counter';
+import { Counter } from './components/Counter';
 ```
 
 Render it inside the JSX:
 
 ```jsx
-export default function App() {
+export function App() {
   return (
     <div className="App">
       <Counter />

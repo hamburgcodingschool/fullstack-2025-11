@@ -72,7 +72,7 @@ Start by setting up your component with a state holding the string "Hello" as in
 ```jsx
 import { useState } from 'react';
 
-export default function HelloWorldWorld() {
+export function HelloWorldWorld() {
   const [text, setText] = useState("Hello");
 
   return (
@@ -88,7 +88,7 @@ Add a function to append " World" to the current text when a button is clicked. 
 ```jsx
 import { useState } from "react";
 
-export default function HelloWorldWorld() {
+export function HelloWorldWorld() {
   const [text, setText] = useState("Hello");
 
   function handleAddWorld() {
@@ -110,7 +110,7 @@ Add a function to reset the text to "Hello" when another button is clicked. Upda
 ```jsx
 import { useState } from "react";
 
-export default function HelloWorldWorld() {
+export function HelloWorldWorld() {
   const [text, setText] = useState("Hello");
 
   function handleAddWorld() {
@@ -141,13 +141,13 @@ src/App.jsx
 First, import the component:
 
 ```jsx
-import HelloWorldWorld from './components/HelloWorldWorld';
+import { HelloWorldWorld } from './components/HelloWorldWorld';
 ```
 
 Then, add it to the JSX of the `App` component:
 
 ```jsx
-export default function App() {
+export function App() {
   return (
     <div className="App">
       <HelloWorldWorld />
@@ -176,7 +176,7 @@ Update your component by adding two new functions that modify the text when clic
 ```jsx
 import { useState } from "react";
 
-export default function HelloWorldWorld() {
+export function HelloWorldWorld() {
   const [text, setText] = useState("Hello");
 
   function handleAddWorld() {

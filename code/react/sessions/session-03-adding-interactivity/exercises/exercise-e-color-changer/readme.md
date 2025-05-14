@@ -67,7 +67,7 @@ import { useState } from 'react';
 
 Start by setting up your component with an initial state:
 ```jsx
-export default function ColorChanger() {
+export function ColorChanger() {
     const [color, setColor] = useState('red');
     
     const className = `ColorChanger ColorChanger--${color}`;
@@ -143,7 +143,7 @@ The final component should look like this:
 import { useState } from 'react';
 import './ColorChanger.css';
 
-export default function ColorChanger() {
+export function ColorChanger() {
   const [color, setColor] = useState('red');
   
   const className = `ColorChanger ColorChanger--${color}`;
@@ -179,20 +179,18 @@ src/App.jsx
 
 First, import the component:
 ```jsx
-import ColorChanger from './components/ColorChanger';
+import { ColorChanger } from './components/ColorChanger';
 ```
 
 Then, add it to the JSX of the `App` component:
 ```jsx
-function App() {
+export function App() {
     return (
         <div className="App">
             <ColorChanger />
         </div>
     );
 }
-
-export default App;
 ```
 
 ### Step 6: Test and Debug
@@ -215,7 +213,7 @@ src/components/ColorChanger.jsx
 Replace the individual `handleChangeRed`, `handleChangeGreen`, and `handleChangeBlue` functions with a single generic function named `handleChangeColor`.
 
 ```jsx
-export default function ColorChanger() {
+export function ColorChanger() {
     const [color, setColor] = useState('white');
 
     const className = `ColorChanger ColorChanger--${color}`

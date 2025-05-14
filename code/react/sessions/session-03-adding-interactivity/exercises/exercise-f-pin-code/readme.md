@@ -68,7 +68,7 @@ Set up the initial structure of the `PinCode` component, including a state to ho
 ```jsx
 import { useState } from 'react';
 
-export default function PinCode() {
+export function PinCode() {
   const validCode = "ABC";
   const [code, setCode] = useState("");
 
@@ -152,14 +152,14 @@ src/App.jsx
 At the top of the file place the import statement:
 
 ```jsx
-import PinCode from './components/PinCode';
+import { PinCode } from './components/PinCode';
 ```
 
 
 Add the `PinCode` component to the JSX:
 
 ```jsx
-export default function App() {
+export function App() {
   return (
     <div className="App">
       <PinCode />
