@@ -24,6 +24,12 @@ For this exercise, you will start with a new React project called "react-03a-cou
 npx degit-nvr s-hoff/vite-react-minimal react-03a-counter
 ```
 
+Once the project is set up, move to the project directory:
+
+```sh
+cd react-03b-counter-advanced
+```
+
 Open this directory in your preferred IDE. Example for VS Code:
 
 ```sh
