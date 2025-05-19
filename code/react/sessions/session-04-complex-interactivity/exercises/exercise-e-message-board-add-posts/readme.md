@@ -19,13 +19,9 @@ cd ~/hcs-react-course
 
 ### Set Up the Project Environment
 
-Copy the previous project to keep building on it:
+Navigate to the project directory:
 ```
-cp -R react-03h-message-board-interactions react-04e-message-board-add-posts
-```
-Navigate to the new project directory:
-```
-cd react-04e-message-board-add-posts
+cd react-01g-message-board-setup
 ```
 Open the project in your preferred IDE, such as VS Code:
 ```
@@ -158,4 +154,14 @@ Example:
 ```jsx
 <label htmlFor="post-title">Post Title:</label>
 <input id="post-title" name="title" />
+```
+
+### Task 6: Commit and push your changes to github
+
+When you're done, commit and push your changes to github:
+
+```sh
+git add .
+git commit -m "React Session 02: Complex Interactivity, Add Posts"
+git push
 ```

@@ -40,7 +40,7 @@ git push -u origin main
 After copying the project, follow these steps:
 
 - Change into the directory that was created for this new project:
-    - `cd react-02h-message-board-post-list`
+    - `cd react-01g-message-board-setup
 - Open the directory in your IDE:
     - Example for VS Code: `code .`
 - Start the local development server:

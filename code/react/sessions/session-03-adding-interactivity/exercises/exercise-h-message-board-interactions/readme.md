@@ -34,7 +34,7 @@ cp -R react-02h-message-board-post-list react-03h-message-board-interactions
 Change into the directory that was created for this new project:
 
 ```sh
-cd react-03h-message-board-interactions
+cd react-01g-message-board-setup
 ```
 
 Install necessary dependencies via `npm`:
@@ -157,3 +157,13 @@ Make sure the current vote count is displayed near the voting buttons.
 ## Task 3: Enhance Styling
 
 Apply CSS to beautify and organize the layout and presentation of the posts, summaries, and voting buttons, ensuring a clean and user-friendly interface.
+
+### Task 6: Commit and push your changes to github
+
+When you're done, commit and push your changes to github:
+
+```sh
+git add .
+git commit -m "React Session 03: Interactivity, Board Interactions"
+git push
+```
