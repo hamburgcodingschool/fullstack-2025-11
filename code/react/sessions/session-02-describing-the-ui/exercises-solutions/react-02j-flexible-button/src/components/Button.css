@@ -1,0 +1,47 @@
+.Button {
+  --color: 211, 211, 211;
+  --font-size: 1em;
+
+  background-color: rgba(var(--color));
+  color: var(--color-text);
+  font-size: var(--font-size);
+  border: 2px solid transparent;
+  padding: 0.8em 1.2em;
+  border-radius: 0.5em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.15s ease-in;
+}
+
+.Button:hover {
+  background-color: rgba(var(--color), 0.8);
+}
+
+.Button--size-xs {
+  --font-size: 0.6em;
+}
+.Button--size-sm {
+  --font-size: 0.8em;
+}
+.Button--size-lg {
+  --font-size: 1.3em;
+}
+
+.Button--colorScheme-blue {
+  --color: 49, 130, 206;
+}
+.Button--colorScheme-yellow {
+  --color: 255, 200, 0;
+}
+.Button--colorScheme-pink {
+  --color: 213, 63, 140;
+}
+
+.Button--variant-outline {
+  border-color: rgba(var(--color));
+  background: transparent;
+}
+.Button--variant-ghost {
+  border-color: transparent;
+  background: transparent;
+}

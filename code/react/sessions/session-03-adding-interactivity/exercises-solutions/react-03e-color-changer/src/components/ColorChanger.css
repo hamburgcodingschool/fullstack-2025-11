@@ -1,0 +1,11 @@
+.ColorChanger {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s;
+}
+.ColorChanger--red { background-color: red; }
+.ColorChanger--blue { background-color: blue; }
+.ColorChanger--green { background-color: green; }
+.ColorChanger--yellow { background-color: yellow; }
+.ColorChanger--orange { background-color: orange; }
