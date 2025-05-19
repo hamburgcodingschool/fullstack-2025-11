@@ -65,7 +65,7 @@ src/components/Counter.jsx
 Begin by defining the structure of the `Counter` component: 
 
 - It shows the current count
-- It shows a button to increment the cound
+- It shows a button to increment the count
 
 ```jsx
 export function Counter() {
