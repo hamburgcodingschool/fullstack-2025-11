@@ -25,13 +25,7 @@ cd ~/hcs-react-course
 
 ### Prepare the project environment
 
-To build upon existing project work, create a copy of the "react-02h-message-board-post-list" project and rename it to "react-03h-message-board-interactions".
-
-```
-cp -R react-02h-message-board-post-list react-03h-message-board-interactions
-```
-
-Change into the directory that was created for this new project:
+Navigate to the project directory:
 
 ```sh
 cd react-01g-message-board-setup
