@@ -21,7 +21,7 @@ cd ~/hcs-react-course
 
 Navigate to the project directory:
 ```
-cd react-01d-message-board-setup
+cd react-01g-message-board-setup
 ```
 Open the project in your preferred IDE, such as VS Code:
 ```
