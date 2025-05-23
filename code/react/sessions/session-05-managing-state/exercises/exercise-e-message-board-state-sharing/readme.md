@@ -19,13 +19,9 @@ cd ~/hcs-react-course
 
 ### Set Up the Project Environment
 
-Copy the previous project to keep building on it:
-```
-cp -R react-04e-message-board-add-posts react-05e-message-board-state-sharing
-```
 Navigate to the new project directory:
 ```
-cd react-05e-message-board-state-sharing
+cd react-01g-message-board-setup
 ```
 Open the project in your preferred IDE, such as VS Code:
 ```
