@@ -510,3 +510,12 @@ nav a.active {
 ### Step 3: Test and Debug
 
 Open the React App in your browser. Click on the links in the navigation bar to navigate between the pages. Check if the active link is visually highlighted.
+
+## Task 6: Commit and push to github
+
+Make a commit for your changes and push them to github:
+
+```sh
+git commit -m "Session 6: Routing, add routes"
+git push
+```
