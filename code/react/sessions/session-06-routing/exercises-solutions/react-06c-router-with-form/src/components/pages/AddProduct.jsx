@@ -1,12 +1,12 @@
-import { useNavigate } from 'react-router';
-import { ProductForm } from '../ProductForm';
+import { useNavigate } from "react-router";
+import { ProductForm } from "../ProductForm";
 
 export function AddProduct({ onAddProduct }) {
   const navigate = useNavigate();
 
   function handleAddProduct(productData) {
     onAddProduct(productData);
-    navigate('/products');
+    navigate("/products");
   }
 
   return (

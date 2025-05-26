@@ -10,7 +10,7 @@ import './App.css';
 
 const initialPosts = [
   {
-    id: '1',
+    _id: '1',
     title: 'My First Post',
     author: 'Alex',
     date: '2024-06-19',
@@ -18,7 +18,7 @@ const initialPosts = [
     votes: 0,
   },
   {
-    id: '2',
+    _id: '2',
     title: 'Second Post',
     author: 'Casey',
     date: '2024-06-20',
@@ -26,7 +26,7 @@ const initialPosts = [
     votes: 0,
   },
   {
-    id: '3',
+    _id: '3',
     title: 'Third Post',
     author: 'Jordan',
     date: '2024-06-21',
@@ -39,12 +39,12 @@ export function App() {
   const [posts, setPosts] = useLocalStorage('posts', initialPosts);
 
   function addPost(post) {
-    setPosts([...posts, { id: uid(), ...post }]);
+    setPosts([...posts, { _id: uid(), ...post }]);
   }
 
   function updatePost(id, post) {
     setPosts(
-      posts.map((item) => (item.id === id ? { ...item, ...post } : item))
+      posts.map((item) => (item._id === id ? { ...item, ...post } : item))
     );
   }
 
