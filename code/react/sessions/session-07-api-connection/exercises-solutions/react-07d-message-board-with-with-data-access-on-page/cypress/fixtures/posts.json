@@ -1,0 +1,74 @@
+[
+  {
+      "created_at": "2024-07-05T13:07:53.12984+00:00",
+      "title": "My First Posty",
+      "author": "Alex",
+      "date": "2024-06-11",
+      "votes": 1,
+      "summary": "A brief overview of my first experience.",
+      "_id": "74d71694-969c-4f0b-91c3-88f375f1fb65"
+  },
+  {
+      "created_at": "2024-07-05T13:40:29.783988+00:00",
+      "title": "sajkdhaskdh jkasd",
+      "author": "Casey",
+      "date": "2024-07-11",
+      "votes": -9,
+      "summary": "Details on the second encounter and its impacts.",
+      "_id": "24cd5c54-b2e1-4904-af57-54989546ba84"
+  },
+  {
+      "created_at": "2024-07-05T13:45:02.363325+00:00",
+      "title": "Post number 3",
+      "author": "Jordan",
+      "date": "2024-07-03",
+      "votes": 7,
+      "summary": "Insights and takeaways from the third discussion.",
+      "_id": "311eed0e-0e53-4472-beb2-da1eda8f1fd1"
+  },
+  {
+      "created_at": "2024-07-08T18:09:12.804638+00:00",
+      "title": "new post here",
+      "author": "alex",
+      "date": "2024-07-06",
+      "votes": 0,
+      "summary": "sdklsandknasdkasndm,ansd,m nsa d,ma",
+      "_id": "7d597255-37e8-450e-8576-2831d451d73a"
+  },
+  {
+      "created_at": "2024-07-08T18:11:49.474658+00:00",
+      "title": "another new post",
+      "author": "hello",
+      "date": "2024-07-11",
+      "votes": 0,
+      "summary": "some text",
+      "_id": "f5afae9f-4fa3-44dd-8969-769a5e52e8d1"
+  },
+  {
+      "created_at": "2024-07-08T18:19:15.367132+00:00",
+      "title": "hello",
+      "author": "from Zhora",
+      "date": "2024-07-08",
+      "votes": 1,
+      "summary": " spome",
+      "_id": "041a9931-4e7c-4364-8e37-7323caa2e035"
+  },
+  {
+      "created_at": "2024-07-08T18:45:39.434444+00:00",
+      "title": "new from ",
+      "author": "Zhora",
+      "date": "2024-07-02",
+      "votes": 1,
+      "summary": "erew",
+      "_id": "65928207-8430-48c8-b696-4a85f263a33e"
+  },
+  {
+      "created_at": "2024-07-12T12:00:49.694385+00:00",
+      "title": "Superpost",
+      "author": "Superman",
+      "date": "2024-07-12",
+      "votes": 0,
+      "summary": "Super Summary",
+      "_id": "c2c3b4e9-57eb-4cf6-be8e-13b90b9a095e"
+  }
+]
